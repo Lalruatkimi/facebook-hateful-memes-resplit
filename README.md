@@ -48,7 +48,7 @@ splits/
 ├── train_ids.csv        # image_name, label  (7,500 rows)
 ├── dev_ids.csv           # image_name, label  (500 rows)
 ├── test_ids.csv          # image_name, label  (1,000 rows)
-└── fhm_resplit_all.csv   # image_name, label, split  (all 9,000 rows combined)
+
 scripts/
 └── build_split.py        # rebuilds full train.csv/dev.csv/test.csv from your own
                            # local copy of the original dataset + the ID lists above
